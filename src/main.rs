@@ -22,7 +22,6 @@ async fn main() -> Result<()> {
             handle_connection(conn).await;
         });
     }
-    println!("Hello, world!");
     Ok(())
 }
 
